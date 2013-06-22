@@ -73,7 +73,7 @@ You'll need to shift the pins for WLAN_CS, MOSI, SCK, and WLAN_EN. The other
 2 pins (WLAN_IRQ and MISO) can be connected directly because they're input
 pins for the Arduino, and the Arduino can read 3.3V signals directly.
 
-You can use a level shifter chip like the 74LVC245 or TXB0104 or you use
+You can use a level shifter chip like the 74LVC245 or TXB0104 or you can use
 a pair of resistors to make a voltage divider like this:
 
 Arduino pin -----> 560 Ohm -----> 1K Ohm -----> GND
