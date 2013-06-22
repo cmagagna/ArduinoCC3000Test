@@ -41,7 +41,7 @@ SPI_IRQ    / 14 / J4-10 / CC3000 host notify
                           this program it will be called WLAN_IRQ
 
 SPI_DIN    / 15 / J4-11   Data from the Arduino to the CC3000
-                          This is the Arduino's MOSI pin, and is how the Arduidno
+                          This is the Arduino's MOSI pin, and is how the Arduino
                           will get bytes to the CC3000. For most Arduinos
                           MOSI is pin 11
 
