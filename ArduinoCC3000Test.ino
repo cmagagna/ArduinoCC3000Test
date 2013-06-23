@@ -160,8 +160,8 @@ byte receive1[NUMBYTES], receive2[NUMBYTES];
    the regular digitalWrite & digitalRead routines
 */
 
-//#define digitalReadFast(pin)			digitalRead(pin)
-//#define digitalWriteFast(pin,state)		digitalWrite(pin,state)
+#define digitalReadFast(pin)			digitalRead(pin)
+#define digitalWriteFast(pin,state)		digitalWrite(pin,state)
 
 
 byte SPIPump(byte data) {
